@@ -1,8 +1,9 @@
 const http = require('http');
 
+
 const server = http.createServer((reg, res) => {
     res.writeHead(200, {'Content-Type': 'text/plain'});
-    res.end('Hello, Node.js')
+    res.end('Hello Node.js')
 });
 
 const PORT = 3000;
